@@ -13,3 +13,4 @@ class ConexaoBD{
 $conexao = ConexaoBD::conectar();
 
 $sql = "insert into carro (modelo, marca, ano) values ('Strada Vermelha','Fiat','2013')";
+$conexao->exec($sql);
