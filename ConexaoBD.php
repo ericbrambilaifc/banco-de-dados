@@ -8,4 +8,6 @@ class ConexaoBD{
     }
 }
 
+
+//APOS ESSA LINHA TUDO SERA APAGADO
 $conexao = ConexaoBD::conectar();
