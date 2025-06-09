@@ -11,3 +11,5 @@ class ConexaoBD{
 
 //APOS ESSA LINHA TUDO SERA APAGADO
 $conexao = ConexaoBD::conectar();
+
+$sql = "insert into carro (modelo, marca, ano) values ('Strada Vermelha','Fiat','2013')";
