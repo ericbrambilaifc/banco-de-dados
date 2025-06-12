@@ -11,7 +11,6 @@ class CarroDAO
         $stmt->bindParam(2, $dados["marca"]);
         $stmt->bindParam(3, $dados["ano"]);
 
-.
         $stmt->execute();
     }
 }
