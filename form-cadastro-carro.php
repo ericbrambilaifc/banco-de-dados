@@ -9,15 +9,28 @@
     <title>Document</title>
 </head>
 
-<body>
-    <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label">Example label</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
-    </div>
-    <div class="mb-3">
-        <label for="formGroupExampleInput2" class="form-label">Another label</label>
-        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
-    </div>
+<body class="w-50 m-auto mt-5">
+
+    <h3 class="text-center mb-4">Formulário de Cadastro de Carros</h3>
+
+    <form action="cadastro-carro.php" method="get">
+        <div class="mb-3">
+            <label class="form-label fw-bold">Modelo</label>
+            <input type="text" class="form-control" name="modelo" placeholder="Digite o modelo">
+        </div>
+        <div class="mb-3">
+            <label class="form-label fw-bold">Marca</label>
+            <input type="text" class="form-control" name="marca" placeholder="Digite a marca">
+        </div>
+        <div class="mb-3">
+            <label class="form-label fw-bold">Ano</label>
+            <input type="text" class="form-control" name="ano" placeholder="Digite o ano">
+        </div>
+
+        <button type="submit" class="btn btn-danger fw-bold w-100">Enviar</button>
+    </form>
+
+
 </body>
 
 </html>
